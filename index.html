@@ -28,8 +28,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>ATIPL</h1>
-        <p>Have spreadsheets that you need to quickly compare to some clean, semantic and accessible tables? Then you've come to the right place!</p>
+        <p class="text-center">BOM Comparision Report</p>
       </div>
     </div>
 
@@ -39,7 +38,7 @@
       <form role="form">
       <div class="row">
         <div class="col-md-6 col-sm-6 file1">
-          <h2>Step 1: Input your old CSV file</h2>
+          <h4>Step 1: Input your old CSV file</h4>
           <div class="file-container hidden">
               
                 <div id="filedrop1" class="drag-and-drop">
@@ -61,7 +60,7 @@
        </div>
 
        <div class="col-md-6 col-sm-6 file2">
-            <h2>Step 2: Input your new CSV file</h2>
+            <h4>Step 2: Input your new CSV file</h4>
             <div class="file-container hidden">
                 
                   <div id="filedrop2" class="drag-and-drop">
@@ -99,13 +98,15 @@
 
       </form>
 
-      <div class="output hidden" id="download">
+      <div class="output hidden">
 
         <h2>Step 3: View/Download the report</h2>
         
         <div class="table-output">
           <div id="table-preview"></div>
         </div>
+        <div id="download"></div>
+
       </div>
 
     </div> <!-- /container -->
